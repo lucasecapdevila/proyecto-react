@@ -1,5 +1,12 @@
+import Info from "./components/info";
+
 function App() {
-  return <h1>Hola mundo !</h1>
+  return (
+    <section>
+      <h1>Proyecto React</h1>
+      <Info/>
+    </section>
+  )
 }
 
 export default App;
