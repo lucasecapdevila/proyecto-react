@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Info from "./components/info";
+import Contador from './components/Contador.JSX';
 
 function App() {
   const anioActual = 2023
@@ -10,6 +11,7 @@ function App() {
       {/* <Info/> */}
 
       <Info comision='c76i' anioActualProps={anioActual} />
+      <Contador />
     </section>
   )
 }
