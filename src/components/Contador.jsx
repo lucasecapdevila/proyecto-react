@@ -15,6 +15,8 @@ const Contador = () => {
       >
         +1
       </button>
+
+      {/* TODO: Agregar un botón para decrementar en -1 el valor del state */}
     </article>
   );
 };
