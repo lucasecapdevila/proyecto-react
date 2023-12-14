@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Contador = () => {
-  const [numero, setNumero] = useState(10)
+  const [numero, setNumero] = useState(1)
   
   // let numero = 10;
 
@@ -11,10 +11,7 @@ const Contador = () => {
       <p>{numero}</p>
       <button
         className="btn btn-primary"
-        onClick={() => {
-          numero++;
-          console.log(num);
-        }}
+        onClick={() => setNumero(numero + 1)}
       >
         +1
       </button>
