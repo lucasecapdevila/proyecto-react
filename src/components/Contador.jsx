@@ -16,7 +16,12 @@ const Contador = () => {
         +1
       </button>
 
-      {/* TODO: Agregar un botón para decrementar en -1 el valor del state */}
+      <button
+        className="btn btn-danger mx-2"
+        onClick={() => setNumero(numero - 1)}
+      >
+        -1
+      </button>
     </article>
   );
 };
