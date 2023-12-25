@@ -3,7 +3,7 @@ const Info = ({comision, anioActualProps}) => {
 
   return (
     // Aquí puede ir lógica
-    <section>
+    <section className="container">
       {/* Aquí va todo el maquetado del componente */}
       <h2>Conceptos de React {comision}</h2>
       
